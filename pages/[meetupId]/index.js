@@ -39,7 +39,7 @@ export async function getStaticPaths() {
   });
   return {
     paths: meetupPaths,
-    fallback: false,
+    fallback: "blocking",
   };
 }
 
